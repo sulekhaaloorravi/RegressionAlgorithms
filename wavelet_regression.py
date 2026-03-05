@@ -13,7 +13,6 @@ Goal:
 - train per-regime experts (median + quantiles) for each horizon step
 - forecast next H business days as a regime-mixture
 
-This is intentionally generic: no domain-specific terms, no hardcoded column names.
 """
 
 from __future__ import annotations
